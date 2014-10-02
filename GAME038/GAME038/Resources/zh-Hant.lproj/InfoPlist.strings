@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  100Game
+ 
+*/
+
+"CFBundleDisplayName" = "快樂拼拼圖";
+"CFBundleName" = "快樂拼拼圖";
+"LanguageInit" = "0";

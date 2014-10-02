@@ -371,6 +371,7 @@
 		5A2548E119DD67C90055F770 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2548D019DD67C90055F770 /* iTunesArtwork.png */; };
 		5A2548E219DD67C90055F770 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2548D119DD67C90055F770 /* iTunesArtwork@2x.png */; };
 		5A2548E419DD67D70055F770 /* upload.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A2548E319DD67D70055F770 /* upload.png */; };
+		5A2548EA19DD6A330055F770 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A2548E819DD6A330055F770 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1069,6 +1070,10 @@
 		5A2548D019DD67C90055F770 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = Resources/iTunesArtwork.png; sourceTree = "<group>"; };
 		5A2548D119DD67C90055F770 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x.png"; path = "Resources/iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		5A2548E319DD67D70055F770 /* upload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = upload.png; path = Resources/upload.png; sourceTree = "<group>"; };
+		5A2548E519DD69F80055F770 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5A2548E619DD69FC0055F770 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		5A2548E919DD6A330055F770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = InfoPlist.strings; sourceTree = "<group>"; };
+		5A2548EB19DD6A3B0055F770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1139,6 +1144,7 @@
 		5A25447F19DD5EF50055F770 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A2548E719DD6A330055F770 /* Base.lproj */,
 				5A2548E319DD67D70055F770 /* upload.png */,
 				5A2548C119DD67C90055F770 /* Icon-16.png */,
 				5A2548C219DD67C90055F770 /* Icon-24.png */,
@@ -2369,6 +2375,15 @@
 			name = Classes;
 			sourceTree = "<group>";
 		};
+		5A2548E719DD6A330055F770 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5A2548E819DD6A330055F770 /* InfoPlist.strings */,
+			);
+			name = Base.lproj;
+			path = Resources/Base.lproj;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2408,6 +2423,9 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"zh-Hans",
+				"zh-Hant",
+				Base,
 			);
 			mainGroup = 5A25446219DD5EF50055F770;
 			productRefGroup = 5A25446C19DD5EF50055F770 /* Products */;
@@ -2425,6 +2443,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A25449119DD5EF50055F770 /* Icon.png in Resources */,
+				5A2548EA19DD6A330055F770 /* InfoPlist.strings in Resources */,
 				5A25453119DD5EF60055F770 /* ChangeLog in Resources */,
 				5A2548D319DD67C90055F770 /* Icon-24.png in Resources */,
 				5A2548DD19DD67C90055F770 /* Icon-ldpi.png in Resources */,
@@ -2798,9 +2817,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A25486219DD5FBB0055F770 /* en */,
+				5A2548E519DD69F80055F770 /* zh-Hans */,
+				5A2548E619DD69FC0055F770 /* zh-Hant */,
+				5A2548EB19DD6A3B0055F770 /* Base */,
 			);
 			name = InfoPlist.strings;
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5A2548E819DD6A330055F770 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A2548E919DD6A330055F770 /* Base */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
