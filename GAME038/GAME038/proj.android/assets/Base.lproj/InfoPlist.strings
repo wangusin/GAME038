@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  HB2DGA0005-DaDaHairSalon
+
+  Created by Mac-8 on 2014/8/20.
+
+*/
+
+//English
+"CFBundleDisplayName" = "Happy Puzzle";
+"CFBundleName" = "Happy Puzzle";
+"LanguageInit" = "2";

@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  100Game
+ 
+*/
+
+"CFBundleDisplayName" = "Happy Puzzle";
+"CFBundleName" = "Happy Puzzle";
+"LanguageInit" = "2";
